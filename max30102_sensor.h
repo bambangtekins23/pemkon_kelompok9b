@@ -1,11 +1,10 @@
-#include "max30102_sensor.h"
+#ifndef MAX30102_SENSOR_H
+#define MAX30102_SENSOR_H
 
-uint16_t ReadHeartRate(void) {
-    // Simulasi pembacaan dari MAX30102, ganti dengan implementasi sensor asli
-    return 72;
-}
+#include <stdint.h>
 
-uint8_t ReadSpO2(void) {
-    // Simulasi pembacaan dari MAX30102, ganti dengan implementasi sensor asli
-    return 97;
-}
+uint16_t ReadHeartRate(void);
+uint8_t ReadSpO2(void);
+
+#endif
+
