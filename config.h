@@ -1,0 +1,9 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define SENSOR_ERROR_CODE -1
+#define HR_THRESHOLD 100
+#define SPO2_THRESHOLD 90
+#define BREATH_EXPANSION_THRESHOLD 300
+
+#endif
